@@ -117,7 +117,7 @@ export default defineComponent({
     async showResult() {
       const toast = await toastController.create({
         color: 'dark',
-        duration: 2000,
+        duration: 4000,
         message: `TEMPS ACABAT!!! El resultat és -> ${this.score}` ,
         showCloseButton: true
       });
