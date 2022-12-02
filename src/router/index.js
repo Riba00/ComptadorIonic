@@ -12,8 +12,8 @@ const routes = [
     component: HomePage
   },
   {
-    path: '*',
-    name: 'Home',
+    path: '/:pathMatch(.*)*',
+    name: 'Not Found',
     component: HomePage
   }
 ]
